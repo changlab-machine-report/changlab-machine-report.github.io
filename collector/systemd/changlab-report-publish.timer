@@ -1,0 +1,10 @@
+[Unit]
+Description=Publish the Chang Lab usage report every Monday
+
+[Timer]
+OnCalendar=Mon *-*-* 00:30:00
+RandomizedDelaySec=30min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Chang Lab usage sampler (GPU, CPU and RAM of lab accounts, once a minute)
+After=nvidia-persistenced.service
+
+[Service]
+ExecStart=/usr/bin/python3 -I /usr/local/lib/changlab-report/changlab_report.py sample
+Restart=always
+RestartSec=30
+Nice=10
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

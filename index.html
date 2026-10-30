@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chang Lab machine usage</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<div class="page">
+  <header class="page-head">
+    <h1>Chang Lab machine usage</h1>
+    <p class="lede">Weekly GPU, CPU and storage use of the lab accounts on changlab_merlin and changlab_assassin.
+      Each machine sends its numbers every Monday.</p>
+  </header>
+
+  <div class="filters" role="group" aria-label="Choose a week">
+    <label for="week">Week</label>
+    <button type="button" id="prev" class="step" aria-label="Previous week">&lsaquo;</button>
+    <select id="week"></select>
+    <button type="button" id="next" class="step" aria-label="Next week">&rsaquo;</button>
+  </div>
+
+  <main id="machines" class="machines" aria-live="polite">
+    <p class="empty">Loading…</p>
+  </main>
+
+  <section id="history-section" class="history" hidden>
+    <h2>GPU-hours by week</h2>
+    <p class="section-note">The last 12 weeks. Pick a week to open it.</p>
+    <div id="history" class="history-grid"></div>
+  </section>
+
+  <footer class="notes">
+    <h2>How this is measured</h2>
+    <ul>
+      <li>Each machine checks once a minute which lab account has processes on each GPU. A GPU-hour is one GPU held for one hour; when two people share a GPU, its time is split between them.</li>
+      <li>Utilization is how busy the GPU was while you held it. Idle GPU-hours are time a GPU was held at under 5% utilization.</li>
+      <li>CPU core-hours and RAM cover everything running under your login sessions. Storage is a snapshot taken when the report was made.</li>
+      <li>Only the five lab accounts are recorded. Weeks run Monday to Sunday, Pacific time.</li>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>

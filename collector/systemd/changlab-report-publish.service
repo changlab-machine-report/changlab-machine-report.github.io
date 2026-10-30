@@ -1,0 +1,9 @@
+[Unit]
+Description=Publish last week's Chang Lab usage report
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I /usr/local/lib/changlab-report/changlab_report.py publish --week last
+Nice=10
