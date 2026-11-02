@@ -1,13 +1,13 @@
 {
  "machine": "changlab_assassin",
- "updated_at": "2026-10-30T15:28:40-07:00",
+ "updated_at": "2026-11-02T00:39:27-08:00",
  "weeks": [
   {
    "week_start": "2026-10-26",
-   "complete": false,
+   "complete": true,
    "hours": 169.0,
-   "elapsed_hours": 111.48,
-   "recorded_hours": 0.32,
+   "elapsed_hours": 169.0,
+   "recorded_hours": 57.83,
    "gpu_count": 2,
    "gpu_hours": {
     "jessieli": 0.0,
