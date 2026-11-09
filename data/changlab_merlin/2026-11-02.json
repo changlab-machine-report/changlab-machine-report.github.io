@@ -1,0 +1,194 @@
+{
+ "schema": 1,
+ "machine": "changlab_merlin",
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "generated_at": "2026-11-09T00:51:33-08:00",
+ "complete": true,
+ "hours": 168.0,
+ "elapsed_hours": 168.0,
+ "recorded_hours": 168.02,
+ "gpu_count": 2,
+ "gpu_name": "NVIDIA RTX PRO 5000 Blackwell",
+ "gpus": [
+  {
+   "index": 0,
+   "used_hours": 0.0,
+   "avg_util": null
+  },
+  {
+   "index": 1,
+   "used_hours": 129.03,
+   "avg_util": 94.6
+  }
+ ],
+ "users": [
+  {
+   "user": "jessieli",
+   "gpu_hours": 0.0,
+   "gpu_hours_by_gpu": [
+    0.0,
+    0.0
+   ],
+   "avg_util": null,
+   "idle_gpu_hours": 0.0,
+   "peak_gpu_mem_gb": 0.0,
+   "cpu_core_hours": 0.0,
+   "avg_ram_gb": 0.0,
+   "peak_ram_gb": 0.0,
+   "home_used_gb": 0.0,
+   "home_limit_gb": 200.0,
+   "hdd1_used_gb": 0.0,
+   "hdd1_limit_gb": 2048.0
+  },
+  {
+   "user": "kellycyy",
+   "gpu_hours": 0.0,
+   "gpu_hours_by_gpu": [
+    0.0,
+    0.0
+   ],
+   "avg_util": null,
+   "idle_gpu_hours": 0.0,
+   "peak_gpu_mem_gb": 0.0,
+   "cpu_core_hours": 0.0,
+   "avg_ram_gb": 0.0,
+   "peak_ram_gb": 0.0,
+   "home_used_gb": 0.0,
+   "home_limit_gb": 200.0,
+   "hdd1_used_gb": 0.0,
+   "hdd1_limit_gb": 2048.0
+  },
+  {
+   "user": "zhining",
+   "gpu_hours": 0.0,
+   "gpu_hours_by_gpu": [
+    0.0,
+    0.0
+   ],
+   "avg_util": null,
+   "idle_gpu_hours": 0.0,
+   "peak_gpu_mem_gb": 0.0,
+   "cpu_core_hours": 0.0,
+   "avg_ram_gb": 0.0,
+   "peak_ram_gb": 0.0,
+   "home_used_gb": 0.0,
+   "home_limit_gb": 200.0,
+   "hdd1_used_gb": 0.0,
+   "hdd1_limit_gb": 2048.0
+  },
+  {
+   "user": "josephsuh",
+   "gpu_hours": 129.03,
+   "gpu_hours_by_gpu": [
+    0.0,
+    129.03
+   ],
+   "avg_util": 94.6,
+   "idle_gpu_hours": 6.42,
+   "peak_gpu_mem_gb": 46.8,
+   "cpu_core_hours": 130.15,
+   "avg_ram_gb": 4.6,
+   "peak_ram_gb": 7.0,
+   "home_used_gb": 15.2,
+   "home_limit_gb": 200.0,
+   "hdd1_used_gb": 85.7,
+   "hdd1_limit_gb": 2048.0
+  },
+  {
+   "user": "wangzhu",
+   "gpu_hours": 0.0,
+   "gpu_hours_by_gpu": [
+    0.0,
+    0.0
+   ],
+   "avg_util": null,
+   "idle_gpu_hours": 0.0,
+   "peak_gpu_mem_gb": 0.0,
+   "cpu_core_hours": 0.0,
+   "avg_ram_gb": 0.0,
+   "peak_ram_gb": 0.0,
+   "home_used_gb": 0.0,
+   "home_limit_gb": 200.0,
+   "hdd1_used_gb": 0.0,
+   "hdd1_limit_gb": 2048.0
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-11-02",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 23.77,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 23.72,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 20.65,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 12.22,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 16.28,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 8.4,
+    "wangzhu": 0.0
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 24.0,
+    "wangzhu": 0.0
+   }
+  }
+ ],
+ "shared": {
+  "path": "/hdd1/data",
+  "used_gb": 68.6,
+  "limit_gb": 2048.0
+ }
+}

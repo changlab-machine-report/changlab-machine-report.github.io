@@ -1,7 +1,22 @@
 {
  "machine": "changlab_merlin",
- "updated_at": "2026-11-02T00:31:44-08:00",
+ "updated_at": "2026-11-09T00:51:34-08:00",
  "weeks": [
+  {
+   "week_start": "2026-11-02",
+   "complete": true,
+   "hours": 168.0,
+   "elapsed_hours": 168.0,
+   "recorded_hours": 168.02,
+   "gpu_count": 2,
+   "gpu_hours": {
+    "jessieli": 0.0,
+    "kellycyy": 0.0,
+    "zhining": 0.0,
+    "josephsuh": 129.03,
+    "wangzhu": 0.0
+   }
+  },
   {
    "week_start": "2026-10-26",
    "complete": true,
